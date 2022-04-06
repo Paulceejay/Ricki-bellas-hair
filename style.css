@@ -391,13 +391,50 @@ a:hover {
 
 
 @media (max-width: 500px) {
+ 
+  .my-home{
+    width: 95%;
+    margin: 0px auto;
+    }
 
+
+.my-home p{
+  margin-top: 50px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.my-home p span{
+  font-size: 18px;
+  color: var(--color-secondary);
+}
+
+  
+  .services-cont{
+    width: 95%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .about-us {
+    width: 80%;
+    margin: 50px auto;
+  }
+  
 .my-works {
   width: 85%;
   margin: 0px auto;
 
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.my-works-items img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
 }
 }
 
@@ -428,7 +465,15 @@ a:hover {
   margin: 0px auto;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+
+#contact {
+  /* background-color: #666; */
+  width: 95%;
+  margin: 50px auto;
+  height: auto;
 }
 
 }
